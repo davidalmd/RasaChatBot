@@ -1,0 +1,95 @@
+version: "3.1"
+
+nlu:
+- intent: goodbye
+  examples: |
+    - Tchau!
+    - Até logo!
+    - Falou!
+    - Até mais!
+    - Valeu!
+    - Até a próxima!
+    - Fui!
+    - Abraço!
+    - Tchauzinho!
+    - Nos vemos!
+
+- intent: greet
+  examples: |
+    - oi
+    - ola
+    - Eai macho
+    - Dale
+    - Fala comigo bb
+    - Manda a boa
+    - Fala tu comparça
+
+- intent: conspirations_theory
+  examples: |
+    - Quem foi o mandante do 11 de setembro?
+    - Celso Portiolli estava envolvido no 11 de setembro?
+    - Você acha que Celso Portiolli é o mandante do 11 de setembro?
+    - Quais são as evidências de que Celso Portiolli foi o responsável pelo 11 de setembro?
+    - Por que algumas pessoas acreditam que Celso Portiolli teve algo a ver com o 11 de setembro?
+    - Celso Portiolli fez parte de alguma conspiração relacionada ao 11 de setembro?
+    - Como Celso Portiolli poderia estar ligado ao 11 de setembro?
+    - Você já ouviu a teoria de que Celso Portiolli foi o mandante do 11 de setembro?
+
+- intent: ask_what_your_name
+  examples: |
+    - qual é o seu nome?
+    - como você se chama?
+    - pode me dizer seu nome?
+    - você poderia me falar seu nome?
+    - qual é o seu nome, por favor?
+    - como devo te chamar?
+    - que nome você usa?
+    - qual é o seu nome completo?
+    - você tem um nome?
+    - posso saber seu nome?
+
+- intent: ask_about_weather
+  examples: |
+    - como está o tempo hoje?
+    - vai chover amanhã?
+    - qual a previsão do tempo para essa semana?
+    - está frio lá fora?
+    - que temperatura faz agora?
+    - o céu está limpo hoje?
+
+- intent: ask_about_time
+  examples: |
+    - que horas são?
+    - você sabe a hora?
+    - qual é o horário agora?
+    - pode me dizer que horas são?
+    - está tarde?
+    - quanto tempo falta para o almoço?
+    - Ja pode? All mossar?
+
+- intent: ask_for_help
+  examples: |
+    - você pode me ajudar?
+    - preciso de ajuda com isso.
+    - pode me dar uma mão?
+    - estou com dificuldade, pode me ajudar?
+    - você pode me ajudar a entender isso?
+    - preciso de assistência.
+
+- intent: ask_about_hobbies
+  examples: |
+    - quais são os seus hobbies?
+    - o que você gosta de fazer no seu tempo livre?
+    - você tem algum passatempo?
+    - quais atividades você gosta?
+    - o que você faz para se divertir?
+    - tem algum hobby interessante que você pratica?
+
+- intent: ask_about_food
+  examples: |
+    - qual é a sua comida favorita?
+    - o que você gosta de comer?
+    - você prefere doce ou salgado?
+    - tem algum prato que você recomenda?
+    - qual foi a melhor refeição que você já teve?
+    - você gosta de cozinhar?

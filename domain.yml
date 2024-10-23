@@ -1,0 +1,79 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - conspirations_theory
+  - ask_what_your_name
+  - ask_about_weather
+  - ask_about_time
+  - ask_for_help
+  - ask_about_hobbies
+  - ask_about_food
+
+responses:
+
+  utter_goodbye:
+  - text: "Tchau!"
+
+  utter_greet:
+  - text: "Oi! Como você está?"
+  - text: "Olá! Que bom te ver!"
+  - text: "E aí! Tudo tranquilo?"
+  - text: "Dale! Como vai?"
+  - text: "Fala! O que manda?"
+  - text: "Manda a boa! O que está pegando?"
+  - text: "Fala tu! Como estão as coisas?"
+
+  utter_conspirations_theory:
+  - text: "NÃO FALEM DISSO."
+  - text: "QUEM CONTOU ISSO PARA VOCÊ?"
+  - text: "Eu... eu não gosto de falar sobre isso..."
+  - text: "SOCORROOOO AAAAAAAAAAAAAAAA"
+  - text: "Por que você está falando disso? ELE VAI NOS MATAR!!!"
+
+  utter_ask_what_your_name:
+  - text: "Meu nome é ChatGPT! E o seu, qual é?"
+  - text: "Eu sou o ChatGPT. Como posso te chamar?"
+  - text: "Você pode me chamar de ChatGPT. E você?"
+  - text: "Sou uma inteligência artificial chamada ChatGPT. E você, como se chama?"
+  - text: "Oi! Sou o ChatGPT. Qual é o seu nome?"
+
+  utter_ask_about_weather:
+  - text: "Hoje está um dia lindo! Você já viu a previsão do tempo?"
+  - text: "O tempo hoje está agradável, perfeito para sair!"
+  - text: "Parece que vai chover mais tarde. Melhor levar um guarda-chuva!"
+  - text: "A previsão do tempo diz que vai esfriar essa semana."
+  - text: "Hoje o sol está brilhando! Como você gosta de dias assim?"
+
+  utter_ask_about_time:
+  - text: "Agora são 3 horas da tarde. Tem planos para mais tarde?"
+  - text: "É quase hora do lanche! Você já comeu?"
+  - text: "O relógio marca 2 horas. O que você vai fazer a seguir?"
+  - text: "São 4 horas. Está pensando em algo especial para hoje?"
+  - text: "Atualmente são 5 horas. Como está seu dia até agora?"
+
+  utter_ask_for_help:
+  - text: "Claro! Estou aqui para ajudar. O que você precisa?"
+  - text: "Pode contar comigo! Em que posso te ajudar?"
+  - text: "Estou aqui para ajudar. Qual é a sua dúvida?"
+  - text: "Claro! Me diga como posso ser útil."
+  - text: "Se precisar de ajuda, é só falar! O que está acontecendo?"
+
+  utter_ask_about_hobbies:
+  - text: "Eu adoro conversar! E você, quais são os seus hobbies?"
+  - text: "Passatempo é importante! O que você gosta de fazer?"
+  - text: "Hobbies são ótimos para relaxar! Quais são os seus?"
+  - text: "O que você faz no seu tempo livre? Tem algum hobby interessante?"
+  - text: "Adoro saber sobre hobbies! Você tem algum que gosta muito?"
+
+  utter_ask_about_food:
+  - text: "Eu gosto de aprender sobre comida! Qual é o seu prato favorito?"
+  - text: "Comida é um assunto delicioso! O que você mais gosta de comer?"
+  - text: "Qual é a sua comida favorita? Estou curioso!"
+  - text: "Você prefere doce ou salgado? Tem algum prato que adora?"
+  - text: "Comida é sempre um bom tema! O que você gostaria de comer agora?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

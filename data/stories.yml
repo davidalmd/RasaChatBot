@@ -1,0 +1,48 @@
+version: "3.1"
+
+stories:
+
+- story: Cumprimentando o usuario
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Despedida
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Falando sobre o 11 de setembro
+  steps:
+  - intent: conspirations_theory
+  - action: utter_conspirations_theory
+
+- story: Perguntando o nome
+  steps:
+  - intent: ask_what_your_name
+  - action: utter_ask_what_your_name
+
+- story: Perguntando sobre o tempo
+  steps:
+  - intent: ask_about_weather
+  - action: utter_ask_about_weather
+
+- story: Perguntando sobre a hora
+  steps:
+  - intent: ask_about_time
+  - action: utter_ask_about_time
+
+- story: Pedindo por ajuda
+  steps:
+  - intent: ask_for_help
+  - action: utter_ask_for_help
+
+- story: Falando sobre hobbies
+  steps:
+  - intent: ask_about_hobbies
+  - action: utter_ask_about_hobbies
+
+- story: Falando sobre comida
+  steps:
+  - intent: ask_about_food
+  - action: utter_ask_about_food
